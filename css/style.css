@@ -57,3 +57,58 @@ button {
     color: grey;
     border: .0625rem solid grey;
 }
+/*--- Tasks ---*/
+.tasks{
+    background-color: white;
+    padding: 2rem 3rem;
+}
+
+h2 {
+    font-weight: 900;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 1rem;
+}
+
+.darrow {
+    display: inline-block;
+    vertical-align: text-bottom;
+    font-size: 2rem;
+}
+
+h3{
+    display: inline-block;
+    font-weight: 500;
+}
+
+.tagg {
+    display: inline-block;
+    vertical-align: middle;
+    border: 1rem none;
+    border-radius: 1rem;
+    padding: .25rem;
+    font-size: .5rem;
+    margin-left: .5rem;
+}
+.editorial {
+    background-color: #45ABEA;
+    color: white;
+}
+
+.circle {
+    display: inline-block;
+    height: .625rem;
+    width: .625rem;
+    border: 1px solid 50%;
+    text-align: center
+}
+
+.check {
+    border-color: green;
+    color: green;
+}
+
+.cross {
+    border-color: red;
+    color: red;
+}
