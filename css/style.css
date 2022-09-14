@@ -28,7 +28,7 @@ h1 {
 }
 /* --- Main --- */
 .container {
-    max-width: 50rem;
+    max-width: 40rem;
     margin: 0 auto;
     color: darkslategray;
 }
@@ -43,26 +43,31 @@ h1 {
 
 button {
     border-radius: .5rem;
-    padding: 0.5rem;
+    padding: .5rem .625rem;
     font-size: .75rem;
+    border: .0625rem solid;
+    cursor: pointer;
+    font-family: inherit;
 }
 
-.task-btn {
+.blue-btn {
     background-color: #45ABEA;
     color: white;
-    border: .0625rem none;
+    border-color: #45ABEA;
 }
 
-.section-btn {
+.gray-btn {
     background-color: white;
     color: grey;
-    border: .0625rem solid grey;
+    border-color: grey;
 }
 /*--- Tasks titles ---*/
 .tasks{
     background-color: white;
     padding-left:3rem;
     padding-bottom: 3rem;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
 }
 
 h2 {
@@ -71,19 +76,13 @@ h2 {
     vertical-align: middle;
     margin: 2rem auto 1rem;
 }
-
-.darrow {
-    display: inline-block;
-    vertical-align: -70%;
-    font-size: 2rem;
-    margin-right: .25rem;
-}
 /*--- Tasks ---*/
-h3{
+span{
     display: inline-block;
     font-weight: 500;
     font-size: 1rem;
     margin: .15rem auto;
+    vertical-align: middle;
 }
 /* --- tags --- */
 .tagg {
@@ -124,6 +123,7 @@ h3{
     height: 1.25rem;
     width: 1.25rem;
     vertical-align: middle;
+    line-height: 1.25rem;
 }
 
 .check {
